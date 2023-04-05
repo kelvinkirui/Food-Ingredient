@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food Ingredient application</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Food ingredient</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <div class="container">
+                    <input id="meal" type="text" placeholder="Search for Meal" />
+                    <div class="search-container">
+                        <button id="submit-meal"type="button">Search</button> 
+                    </div>
+                </div>
+            </form>
+            <h4 id="not-found"></h4>
+        </section>
+        <section id="meal-details-section"></section>
+        <section id="meal-info-section"></section>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>
